@@ -1,0 +1,30 @@
+﻿  olcNoiseMaker.cpp
+  Sintetizador.cpp
+D:\Proyectos programación\C++\source\repos\Sintetizador\olcNoiseMaker.h(106,18): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "Sintetizador.cpp")
+      D:\Proyectos programación\C++\source\repos\Sintetizador\olcNoiseMaker.h(106,18):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          D:\Proyectos programación\C++\source\repos\Sintetizador\Sintetizador.cpp(150,53):
+          Vea la referencia a la creación de una instancia de clase plantilla "olcNoiseMaker<short>" que se está compilando
+          D:\Proyectos programación\C++\source\repos\Sintetizador\olcNoiseMaker.h(86,7):
+          al compilar la función del miembro clase plantilla "bool olcNoiseMaker<short>::Create(std::wstring,unsigned int,unsigned int,unsigned int,unsigned int)"
+              D:\Proyectos programación\C++\source\repos\Sintetizador\olcNoiseMaker.h(78,9):
+              vea la primera referencia a “olcNoiseMaker<short>::Create” en “olcNoiseMaker<short>::olcNoiseMaker”
+              D:\Proyectos programación\C++\source\repos\Sintetizador\Sintetizador.cpp(163,39):
+              vea la primera referencia a “olcNoiseMaker<short>::olcNoiseMaker” en “main”
+  
+D:\Proyectos programación\C++\source\repos\Sintetizador\olcNoiseMaker.h(234,4): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'olcNoiseMaker<short> *' de mayor tamaño
+  (compilando archivo de origen "Sintetizador.cpp")
+      D:\Proyectos programación\C++\source\repos\Sintetizador\olcNoiseMaker.h(234,4):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          D:\Proyectos programación\C++\source\repos\Sintetizador\olcNoiseMaker.h(232,23):
+          al compilar la función del miembro clase plantilla "void olcNoiseMaker<short>::waveOutProcWrap(HWAVEOUT,UINT,DWORD,DWORD,DWORD)"
+              D:\Proyectos programación\C++\source\repos\Sintetizador\olcNoiseMaker.h(117,4):
+              vea la primera referencia a “olcNoiseMaker<short>::waveOutProcWrap” en “olcNoiseMaker<short>::Create”
+              D:\Proyectos programación\C++\source\repos\Sintetizador\olcNoiseMaker.h(78,9):
+              vea la primera referencia a “olcNoiseMaker<short>::Create” en “olcNoiseMaker<short>::olcNoiseMaker”
+              D:\Proyectos programación\C++\source\repos\Sintetizador\Sintetizador.cpp(163,39):
+              vea la primera referencia a “olcNoiseMaker<short>::olcNoiseMaker” en “main”
+  
+  Generando código...
+  Sintetizador.vcxproj -> D:\Proyectos programación\C++\source\repos\Sintetizador\x64\Debug\Sintetizador.exe
